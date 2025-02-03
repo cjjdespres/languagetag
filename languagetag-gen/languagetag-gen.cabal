@@ -31,7 +31,7 @@ library
     languagetag-bcp47-subtag == 0.1.0,
     languagetag-bcp47-syntax == 0.1.0,
     languagetag-bcp47-dynamic == 0.1.0,
-    base >= 4.12 && < 4.18,
+    base >= 4.12 && < 4.21,
     text,
     containers,
     bytestring,
