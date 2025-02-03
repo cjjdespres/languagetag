@@ -17,7 +17,7 @@ description:
   at
   <https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry>.
 tested-with:
-  GHC ==8.6.5 || ==8.8.4 || ==8.10.7 || ==9.0.2 || ==9.2.8 || ==9.4.7 || ==9.8.4 || ==9.10.1 || ==9.12.1
+  GHC ==8.6.5 || ==8.8.4 || ==8.10.7 || ==9.0.2 || ==9.2.8 || ==9.4.8 || ==9.8.4 || ==9.10.1 || ==9.12.1
 
 extra-source-files:
   README.md
@@ -31,7 +31,7 @@ library
     languagetag-bcp47-subtag == 0.1.0,
     languagetag-bcp47-syntax == 0.1.0,
     languagetag-bcp47-dynamic == 0.1.0,
-    base >= 4.12 && < 4.21,
+    base >= 4.12 && < 4.22,
     text,
     containers,
     bytestring,

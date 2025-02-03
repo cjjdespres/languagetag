@@ -17,7 +17,7 @@ description:
   language tag but are not necessarily valid, so they may not, for instance, be
   composed of subtags that are registered in the IANA language subtag registry.
 tested-with:
-  GHC ==8.6.5 || ==8.8.4 || ==8.10.7 || ==9.0.2 || ==9.2.8 || ==9.4.7 || ==9.8.4 || ==9.10.1 || ==9.12.1
+  GHC ==8.6.5 || ==8.8.4 || ==8.10.7 || ==9.0.2 || ==9.2.8 || ==9.4.8 || ==9.8.4 || ==9.10.1 || ==9.12.1
 
 extra-source-files:
   CHANGELOG.md
@@ -27,14 +27,14 @@ library
   hs-source-dirs: src
   default-language: Haskell2010
   build-depends:
-    base >= 4.12 && < 4.21,
-    bytestring >= 0.10.8.0 && < 0.12,
+    base >= 4.12 && < 4.22,
+    bytestring >= 0.10.8.0 && < 0.13,
     containers >= 0.6.0.1 && < 0.7,
-    deepseq >= 1.4.4.0 && < 1.5,
-    hashable >= 1.2.7.0 && < 1.5,
-    template-haskell >= 2.14.0.0 && < 2.20,
-    text >= 1.2.3.0 && < 2.1,
-    time >= 1.6 && < 1.13,
+    deepseq >= 1.4.4.0 && < 1.6,
+    hashable >= 1.2.7.0 && < 1.6,
+    template-haskell >= 2.14.0.0 && < 2.24,
+    text >= 1.2.3.0 && < 2.2,
+    time >= 1.6 && < 1.15,
     vector >= 0.12.0.1 && < 0.14,
     languagetag-bcp47-subtag >= 0.1 && < 0.2
   ghc-options: -Wall
