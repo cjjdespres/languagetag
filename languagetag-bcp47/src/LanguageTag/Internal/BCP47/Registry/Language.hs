@@ -9,7 +9,7 @@ import Prelude hiding (LT, GT)
 import Control.DeepSeq (NFData(..), rwhnf)
 import Data.Hashable (Hashable(..), hashUsing)
 
--- | The BCP47 primary language subtags as of 2024-11-19.
+-- | The BCP47 primary language subtags as of 2025-01-21.
 data Language
   = Aa -- ^ @aa@. Description: Afar.
   | Aaa -- ^ @aaa@. Description: Ghotuo.
@@ -960,7 +960,7 @@ data Language
   | Bqi -- ^ @bqi@. Description: Bakhtiari.
   | Bqj -- ^ @bqj@. Description: Bandial.
   | Bqk -- ^ @bqk@. Description: Banda-Mbrès.
-  | Bql -- ^ @bql@. Description: Bilakura.
+  | Bql -- ^ @bql@. Description: Karian; Bilakura.
   | Bqm -- ^ @bqm@. Description: Wumboko.
   | Bqn -- ^ @bqn@. Description: Bulgarian Sign Language.
   | Bqo -- ^ @bqo@. Description: Balo.
@@ -1577,7 +1577,7 @@ data Language
   | Daw -- ^ @daw@. Description: Davawenyo.
   | Dax -- ^ @dax@. Description: Dayi.
   | Day -- ^ @day@. Description: Land Dayak languages.
-  | Daz -- ^ @daz@. Description: Dao.
+  | Daz -- ^ @daz@. Description: Moi-Wadea; Dao.
   | Dba -- ^ @dba@. Description: Bangime.
   | Dbb -- ^ @dbb@. Description: Deno.
   | Dbd -- ^ @dbd@. Description: Dadiya.
@@ -1619,7 +1619,7 @@ data Language
   | Deg -- ^ @deg@. Description: Degema.
   | Deh -- ^ @deh@. Description: Dehwari.
   | Dei -- ^ @dei@. Description: Demisa.
-  | Dek -- ^ @dek@. Description: Dek.
+  | Dek -- ^ @dek@. Description: Dek. Deprecated. Preferred value: sqm.
   | Del -- ^ @del@. Description: Delaware.
   | Dem -- ^ @dem@. Description: Dem.
   | Den -- ^ @den@. Description: Slave (Athapascan).
@@ -2561,6 +2561,7 @@ data Language
   | Hnh -- ^ @hnh@. Description: ǁAni.
   | Hni -- ^ @hni@. Description: Hani.
   | Hnj -- ^ @hnj@. Description: Hmong Njua; Mong Leng; Mong Njua.
+  | Hnm -- ^ @hnm@. Description: Hainanese.
   | Hnn -- ^ @hnn@. Description: Hanunoo.
   | Hno -- ^ @hno@. Description: Northern Hindko.
   | Hns -- ^ @hns@. Description: Caribbean Hindustani.
@@ -3966,6 +3967,7 @@ data Language
   | Lud -- ^ @lud@. Description: Ludian.
   | Lue -- ^ @lue@. Description: Luvale.
   | Luf -- ^ @luf@. Description: Laua.
+  | Luh -- ^ @luh@. Description: Leizhou Chinese.
   | Lui -- ^ @lui@. Description: Luiseno.
   | Luj -- ^ @luj@. Description: Luna.
   | Luk -- ^ @luk@. Description: Lunanakha.
@@ -4318,7 +4320,7 @@ data Language
   | Mmf -- ^ @mmf@. Description: Mundat.
   | Mmg -- ^ @mmg@. Description: North Ambrym.
   | Mmh -- ^ @mmh@. Description: Mehináku.
-  | Mmi -- ^ @mmi@. Description: Musar.
+  | Mmi -- ^ @mmi@. Description: Hember Avu; Amben; Musar.
   | Mmj -- ^ @mmj@. Description: Majhwar.
   | Mmk -- ^ @mmk@. Description: Mukha-Dora.
   | Mml -- ^ @mml@. Description: Man Met.
@@ -5070,7 +5072,7 @@ data Language
   | Nsy -- ^ @nsy@. Description: Nasal.
   | Nsz -- ^ @nsz@. Description: Nisenan.
   | Ntd -- ^ @ntd@. Description: Northern Tidung.
-  | Nte -- ^ @nte@. Description: Nathembo.
+  | Nte -- ^ @nte@. Description: Nathembo. Deprecated. Preferred value: eko.
   | Ntg -- ^ @ntg@. Description: Ngantangarra.
   | Nti -- ^ @nti@. Description: Natioro.
   | Ntj -- ^ @ntj@. Description: Ngaanyatjarra.
@@ -6675,6 +6677,7 @@ data Language
   | Siz -- ^ @siz@. Description: Siwi.
   | Sja -- ^ @sja@. Description: Epena.
   | Sjb -- ^ @sjb@. Description: Sajau Basap.
+  | Sjc -- ^ @sjc@. Description: Shaojiang Chinese.
   | Sjd -- ^ @sjd@. Description: Kildin Sami.
   | Sje -- ^ @sje@. Description: Pite Sami.
   | Sjg -- ^ @sjg@. Description: Assangori.

@@ -9,7 +9,7 @@ import Prelude hiding (LT, GT)
 import Control.DeepSeq (NFData(..), rwhnf)
 import Data.Hashable (Hashable(..), hashUsing)
 
--- | The BCP47 extended language subtags as of 2024-11-19. These are prefixed with \"Ext\" because they would otherwise overlap with their corresponding primary language subtags. Note that the preferred values of these subtags refer to primary language subtags.
+-- | The BCP47 extended language subtags as of 2025-01-21. These are prefixed with \"Ext\" because they would otherwise overlap with their corresponding primary language subtags. Note that the preferred values of these subtags refer to primary language subtags.
 data Extlang
   = ExtAao -- ^ @aao@. Description: Algerian Saharan Arabic. Preferred value: aao.
   | ExtAbh -- ^ @abh@. Description: Tajiki Arabic. Preferred value: abh.
@@ -108,6 +108,7 @@ data Extlang
   | ExtHds -- ^ @hds@. Description: Honduras Sign Language. Preferred value: hds.
   | ExtHji -- ^ @hji@. Description: Haji. Preferred value: hji.
   | ExtHks -- ^ @hks@. Description: Hong Kong Sign Language; Heung Kong Sau Yue. Preferred value: hks.
+  | ExtHnm -- ^ @hnm@. Description: Hainanese. Preferred value: hnm.
   | ExtHos -- ^ @hos@. Description: Ho Chi Minh City Sign Language. Preferred value: hos.
   | ExtHps -- ^ @hps@. Description: Hawai\'i Sign Language (HSL); Hawai\'i Pidgin Sign Language. Preferred value: hps.
   | ExtHsh -- ^ @hsh@. Description: Hungarian Sign Language. Preferred value: hsh.
@@ -154,6 +155,7 @@ data Extlang
   | ExtLsw -- ^ @lsw@. Description: Seychelles Sign Language; Lalang Siny Seselwa; Langue des Signes Seychelloise. Preferred value: lsw.
   | ExtLsy -- ^ @lsy@. Description: Mauritian Sign Language. Preferred value: lsy.
   | ExtLtg -- ^ @ltg@. Description: Latgalian. Preferred value: ltg.
+  | ExtLuh -- ^ @luh@. Description: Leizhou Chinese. Preferred value: luh.
   | ExtLvs -- ^ @lvs@. Description: Standard Latvian. Preferred value: lvs.
   | ExtLws -- ^ @lws@. Description: Malawian Sign Language. Preferred value: lws.
   | ExtLzh -- ^ @lzh@. Description: Literary Chinese. Preferred value: lzh.
@@ -213,6 +215,7 @@ data Extlang
   | ExtSgg -- ^ @sgg@. Description: Swiss-German Sign Language. Preferred value: sgg.
   | ExtSgx -- ^ @sgx@. Description: Sierra Leone Sign Language. Preferred value: sgx.
   | ExtShu -- ^ @shu@. Description: Chadian Arabic. Preferred value: shu.
+  | ExtSjc -- ^ @sjc@. Description: Shaojiang Chinese. Preferred value: sjc.
   | ExtSlf -- ^ @slf@. Description: Swiss-Italian Sign Language. Preferred value: slf.
   | ExtSls -- ^ @sls@. Description: Singapore Sign Language. Preferred value: sls.
   | ExtSqk -- ^ @sqk@. Description: Albanian Sign Language. Preferred value: sqk.

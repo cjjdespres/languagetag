@@ -9,7 +9,7 @@ import Prelude hiding (LT, GT)
 import Control.DeepSeq (NFData(..), rwhnf)
 import Data.Hashable (Hashable(..), hashUsing)
 
--- | The BCP47 region subtags as of 2024-11-19. The names of region constructors come from the corresponding subtag, except that subtags beginning with a number are prefixed with @Reg@.
+-- | The BCP47 region subtags as of 2025-01-21. The names of region constructors come from the corresponding subtag, except that subtags beginning with a number are prefixed with @Reg@.
 data Region
   = Reg001 -- ^ @001@. Description: World.
   | Reg002 -- ^ @002@. Description: Africa.
