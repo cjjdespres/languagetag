@@ -25,7 +25,7 @@ library
   build-depends:
     base >= 4.12 && < 4.22,
     text >= 1.2.3.0 && < 2.2,
-    containers >= 0.6.0.1 && < 0.7,
+    containers >= 0.6.0.1 && < 0.8,
     bytestring >= 0.10.8.0 && < 0.13,
     hashable >= 1.2.7.0 && < 1.6,
     deepseq >= 1.4.4.0 && < 1.6,
