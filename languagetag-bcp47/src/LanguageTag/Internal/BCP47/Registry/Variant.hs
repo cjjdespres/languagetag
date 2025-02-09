@@ -9,7 +9,7 @@ import Prelude hiding (LT, GT)
 import Control.DeepSeq (NFData(..), rwhnf)
 import Data.Hashable (Hashable(..), hashUsing)
 
--- | The BCP47 variant subtags as of 2025-01-21. The names of variant constructors come from the corresponding subtag, except that they are in title case and subtags beginning with a number are prefixed with @Var@.
+-- | The BCP47 variant subtags as of 2025-02-06. The names of variant constructors come from the corresponding subtag, except that they are in title case and subtags beginning with a number are prefixed with @Var@.
 data Variant
   = Var1606nict -- ^ @1606nict@. Description: Late Middle French (to 1606).
   | Var1694acad -- ^ @1694acad@. Description: Early Modern French.
@@ -76,12 +76,15 @@ data Variant
   | Kociewie -- ^ @kociewie@. Description: The Kociewie dialect of Polish.
   | Kscor -- ^ @kscor@. Description: Standard Cornish orthography of Revived Cornish; Kernowek Standard.
   | Laukika -- ^ @laukika@. Description: Classical Sanskrit. Deprecated.
+  | Leidentr -- ^ @leidentr@. Description: Ancient Egyptian in Leiden Unified Transliteration.
   | Lemosin -- ^ @lemosin@. Description: Limousin.
   | Lengadoc -- ^ @lengadoc@. Description: Languedocien.
   | Lipaw -- ^ @lipaw@. Description: The Lipovaz dialect of Resian; The Lipovec dialect of Resian.
   | Ltg1929 -- ^ @ltg1929@. Description: The Latgalian language orthography codified in 1929.
   | Ltg2007 -- ^ @ltg2007@. Description: The Latgalian language orthography codified in the language law in 2007.
   | Luna1918 -- ^ @luna1918@. Description: Post-1917 Russian orthography.
+  | Mdcegyp -- ^ @mdcegyp@. Description: Ancient Egyptian hieroglyphs encoded in Manuel de Codage.
+  | Mdctrans -- ^ @mdctrans@. Description: Ancient Egyptian transliteration encoded in Manuel de Codage.
   | Metelko -- ^ @metelko@. Description: Slovene in Metelko alphabet.
   | Monoton -- ^ @monoton@. Description: Monotonic Greek.
   | Ndyuka -- ^ @ndyuka@. Description: Ndyuka dialect; Aukan dialect.

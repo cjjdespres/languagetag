@@ -40,6 +40,7 @@ scriptDetails = V.fromList
   ,(Subtag 14233520175834988548, ScriptRecord ("Bassa Vah" :| []) NotDeprecated)
   ,(Subtag 14233528422172196868, ScriptRecord ("Batak" :| []) NotDeprecated)
   ,(Subtag 14237978970363527172, ScriptRecord ("Bengali" :| ["Bangla"]) NotDeprecated)
+  ,(Subtag 14238014086016139268, ScriptRecord ("Beria Erfe" :| []) NotDeprecated)
   ,(Subtag 14241331106438709252, ScriptRecord ("Bhaiksuki" :| []) NotDeprecated)
   ,(Subtag 14245817113880035332, ScriptRecord ("Blissymbols" :| []) NotDeprecated)
   ,(Subtag 14249256111373811716, ScriptRecord ("Bopomofo" :| []) NotDeprecated)

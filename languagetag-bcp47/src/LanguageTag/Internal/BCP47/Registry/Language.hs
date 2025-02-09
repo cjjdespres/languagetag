@@ -9,7 +9,7 @@ import Prelude hiding (LT, GT)
 import Control.DeepSeq (NFData(..), rwhnf)
 import Data.Hashable (Hashable(..), hashUsing)
 
--- | The BCP47 primary language subtags as of 2025-01-21.
+-- | The BCP47 primary language subtags as of 2025-02-06.
 data Language
   = Aa -- ^ @aa@. Description: Afar.
   | Aaa -- ^ @aaa@. Description: Ghotuo.
@@ -8499,6 +8499,7 @@ data Language
   | Ymx -- ^ @ymx@. Description: Northern Muji.
   | Ymz -- ^ @ymz@. Description: Muzi.
   | Yna -- ^ @yna@. Description: Aluo.
+  | Ynb -- ^ @ynb@. Description: Yamben.
   | Ynd -- ^ @ynd@. Description: Yandruwandha.
   | Yne -- ^ @yne@. Description: Lang\'e.
   | Yng -- ^ @yng@. Description: Yango.

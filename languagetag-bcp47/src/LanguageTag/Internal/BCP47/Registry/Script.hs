@@ -9,7 +9,7 @@ import Prelude hiding (LT, GT)
 import Control.DeepSeq (NFData(..), rwhnf)
 import Data.Hashable (Hashable(..), hashUsing)
 
--- | The BCP47 script subtags as of 2025-01-21.
+-- | The BCP47 script subtags as of 2025-02-06.
 data Script
   = Adlm -- ^ @Adlm@. Description: Adlam.
   | Afak -- ^ @Afak@. Description: Afaka.
@@ -25,6 +25,7 @@ data Script
   | Bass -- ^ @Bass@. Description: Bassa Vah.
   | Batk -- ^ @Batk@. Description: Batak.
   | Beng -- ^ @Beng@. Description: Bengali; Bangla.
+  | Berf -- ^ @Berf@. Description: Beria Erfe.
   | Bhks -- ^ @Bhks@. Description: Bhaiksuki.
   | Blis -- ^ @Blis@. Description: Blissymbols.
   | Bopo -- ^ @Bopo@. Description: Bopomofo.

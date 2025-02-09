@@ -8515,6 +8515,7 @@ languageDetails = V.fromList
   ,(Subtag 17561716378187071491, LanguageRecord ("Northern Muji" :| []) NotDeprecated Nothing Nothing Nothing)
   ,(Subtag 17561733970373115907, LanguageRecord ("Muzi" :| []) NotDeprecated Nothing Nothing Nothing)
   ,(Subtag 17562639967954403331, LanguageRecord ("Aluo" :| []) NotDeprecated Nothing Nothing Nothing)
+  ,(Subtag 17562648764047425539, LanguageRecord ("Yamben" :| []) NotDeprecated Nothing Nothing Nothing)
   ,(Subtag 17562666356233469955, LanguageRecord ("Yandruwandha" :| []) NotDeprecated Nothing Nothing Nothing)
   ,(Subtag 17562675152326492163, LanguageRecord ("Lang'e" :| []) NotDeprecated Nothing Nothing Nothing)
   ,(Subtag 17562692744512536579, LanguageRecord ("Yango" :| []) NotDeprecated Nothing Nothing Nothing)
