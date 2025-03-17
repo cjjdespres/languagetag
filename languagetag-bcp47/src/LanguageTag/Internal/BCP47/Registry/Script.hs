@@ -9,7 +9,7 @@ import Prelude hiding (LT, GT)
 import Control.DeepSeq (NFData(..), rwhnf)
 import Data.Hashable (Hashable(..), hashUsing)
 
--- | The BCP47 script subtags as of 2025-02-06.
+-- | The BCP47 script subtags as of 2025-03-10.
 data Script
   = Adlm -- ^ @Adlm@. Description: Adlam.
   | Afak -- ^ @Afak@. Description: Afaka.

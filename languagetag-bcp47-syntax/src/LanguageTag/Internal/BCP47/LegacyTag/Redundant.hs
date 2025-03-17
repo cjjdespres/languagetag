@@ -9,7 +9,7 @@ import Prelude hiding (LT, GT)
 import Control.DeepSeq (NFData(..), rwhnf)
 import Data.Hashable (Hashable(..), hashUsing)
 
--- | The BCP47 redundant tags as of 2025-02-06. The names of redundant constructors are derived from the corresponding tag by converting the subtags to title case and then removing the intermediate dashes.
+-- | The BCP47 redundant tags as of 2025-03-10. The names of redundant constructors are derived from the corresponding tag by converting the subtags to title case and then removing the intermediate dashes.
 data Redundant
   = AzArab -- ^ @az-Arab@. Description: Azerbaijani in Arabic script.
   | AzCyrl -- ^ @az-Cyrl@. Description: Azerbaijani in Cyrillic script.

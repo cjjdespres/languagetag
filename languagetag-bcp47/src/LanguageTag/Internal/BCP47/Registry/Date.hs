@@ -4,6 +4,6 @@ module LanguageTag.Internal.BCP47.Registry.Date where
 
 import Data.Time.Calendar (Day(..))
 
--- | The date of the BCP47 registry that this library uses. The current value is: 2025-02-06.
+-- | The date of the BCP47 registry that this library uses. The current value is: 2025-03-10.
 bcp47RegistryDate :: Day
-bcp47RegistryDate = ModifiedJulianDay 60712
+bcp47RegistryDate = ModifiedJulianDay 60744

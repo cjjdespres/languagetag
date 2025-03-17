@@ -9,7 +9,7 @@ import Prelude hiding (LT, GT)
 import Control.DeepSeq (NFData(..), rwhnf)
 import Data.Hashable (Hashable(..), hashUsing)
 
--- | The BCP47 variant subtags as of 2025-02-06. The names of variant constructors come from the corresponding subtag, except that they are in title case and subtags beginning with a number are prefixed with @Var@.
+-- | The BCP47 variant subtags as of 2025-03-10. The names of variant constructors come from the corresponding subtag, except that they are in title case and subtags beginning with a number are prefixed with @Var@.
 data Variant
   = Var1606nict -- ^ @1606nict@. Description: Late Middle French (to 1606).
   | Var1694acad -- ^ @1694acad@. Description: Early Modern French.
@@ -62,10 +62,12 @@ data Variant
   | Grclass -- ^ @grclass@. Description: Classical Occitan orthography.
   | Grital -- ^ @grital@. Description: Italian-inspired Occitan orthography.
   | Grmistr -- ^ @grmistr@. Description: Mistralian or Mistralian-inspired Occitan orthography.
+  | Hanoi -- ^ @hanoi@. Description: The Hà Nội variant of Vietnamese.
   | Hepburn -- ^ @hepburn@. Description: Hepburn romanization.
   | Heploc -- ^ @heploc@. Description: Hepburn romanization, Library of Congress method. Deprecated. Preferred value: alalc97.
   | Hognorsk -- ^ @hognorsk@. Description: Norwegian in Høgnorsk (High Norwegian) orthography.
   | Hsistemo -- ^ @hsistemo@. Description: Standard H-system orthographic fallback for spelling Esperanto.
+  | Huett -- ^ @huett@. Description: The Huế (province Thừa Thiên) variant of Vietnamese.
   | Ijekavsk -- ^ @ijekavsk@. Description: Serbian with Ijekavian pronunciation.
   | Itihasa -- ^ @itihasa@. Description: Epic Sanskrit.
   | Ivanchov -- ^ @ivanchov@. Description: Bulgarian in 1899 orthography.
@@ -109,6 +111,7 @@ data Variant
   | Rigik -- ^ @rigik@. Description: Volapük rigik; Schleyer\'s Volapük; Original Volapük; Classic Volapük.
   | Rozaj -- ^ @rozaj@. Description: Resian; Resianic; Rezijan.
   | Rumgr -- ^ @rumgr@. Description: Rumantsch Grischun.
+  | Saigon -- ^ @saigon@. Description: The Sài Gòn variant of Vietnamese.
   | Scotland -- ^ @scotland@. Description: Scottish Standard English.
   | Scouse -- ^ @scouse@. Description: Scouse.
   | Simple -- ^ @simple@. Description: Simplified form.

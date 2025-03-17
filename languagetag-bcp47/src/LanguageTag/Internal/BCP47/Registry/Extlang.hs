@@ -9,7 +9,7 @@ import Prelude hiding (LT, GT)
 import Control.DeepSeq (NFData(..), rwhnf)
 import Data.Hashable (Hashable(..), hashUsing)
 
--- | The BCP47 extended language subtags as of 2025-02-06. These are prefixed with \"Ext\" because they would otherwise overlap with their corresponding primary language subtags. Note that the preferred values of these subtags refer to primary language subtags.
+-- | The BCP47 extended language subtags as of 2025-03-10. These are prefixed with \"Ext\" because they would otherwise overlap with their corresponding primary language subtags. Note that the preferred values of these subtags refer to primary language subtags.
 data Extlang
   = ExtAao -- ^ @aao@. Description: Algerian Saharan Arabic. Preferred value: aao.
   | ExtAbh -- ^ @abh@. Description: Tajiki Arabic. Preferred value: abh.
